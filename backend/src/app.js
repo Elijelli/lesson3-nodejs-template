@@ -15,7 +15,7 @@ app.use(logger());
 app.use(cors({ credentials: true }));
 app.use(bodyParser());
 
-/** METHODS TO RESPOND TO THE ROUTES **/
+/** METHODS TO RESPOND TO THE ROUTES :3 **/
 
 const listChats = async (ctx) => {
   let options = {};
